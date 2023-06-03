@@ -1,8 +1,8 @@
 .cosmetics {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
     flex-direction: column;
+    padding-bottom: 50px;
     background: linear-gradient(180deg, #1a1826, #000000);
 }
 
@@ -12,18 +12,28 @@
 }
 
 .img {
-    width: 298px;
-    height: 193;
-    padding-bottom: 80px;
+    width: 400px;
+    height: 400px;
 }
 
-@media(min-width: 800px) {
-    .cosmetics p {
-        font-size: 2.5em;
-    }
+.cosmetics p {
+    color: #f1f1f1;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 20px;
+}
 
+@media(min-width: 1000px) {
     .img {
         width: 566px;
         height: 386px;
     }
+
+    .cosmetics div {
+        display: grid;
+        padding: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
 }

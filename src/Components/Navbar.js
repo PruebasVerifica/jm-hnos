@@ -68,7 +68,7 @@ const Navbar = () => {
                                 {
                                     x.link === "Home" ? "Inicio" : x.link
                                         && x.link === "Hairdresser" ? "Peluquería" : x.link
-                                            && x.link === "Cosmeticts" ? "Cosmética" : x.link
+                                            && x.link === "Cosmetics" ? "Cosméticos" : x.link
                                                 && x.link === "Store" ? "Tienda" : x.link
                                                     && x.link === "Contact" ? "Contacto" : x.link}
                             </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
                             {
                                 x.link === "Home" ? "Inicio" : x.link
                                     && x.link === "Hairdresser" ? "Peluquería" : x.link
-                                        && x.link === "Cosmeticts" ? "Cosmética" : x.link
+                                        && x.link === "Cosmetics" ? "Cosméticos" : x.link
                                             && x.link === "Store" ? "Tienda" : x.link
                                                 && x.link === "Contact" ? "Contacto" : x.link}
                         </Link>
